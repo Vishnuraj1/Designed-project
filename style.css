@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.navigation{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+.logoImage img{
+    height:4rem ;
+    padding-left: 2rem;
+}
+.first-section{
+    height:44rem;
+   background-image: url(img/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+   background-size: 100% 100%;
+}
+.first-section img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:6rem ;
+}
+.first-section h1{
+    color: white;
+    text-align: center;
+}
+.first-section p{
+    color: white;
+    text-align: center;
+} 
+.second-section h1{
+    text-align: center;
+    margin-top: 5px;
+}
+/* .about-image{
+
+}
+.about-content h1{
+  
+} */
+
+.third-section{
+    /* height: 80rem; */
+    background-image: url(img/Moon\ and\ cloud.jpg);
+    background-size: cover;
+}
+.third-section h1{
+    color: white;
+    text-align: center;
+}
+footer{
+    height: 5rem;
+    background-color: royalblue;
+}
+.card{
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
+
+@media  screen and (max-width:820px) {
+    .card{
+         display: flex;
+         margin-left: auto;
+         margin-right: auto;
+         justify-content: center;
+         column-gap: 15rem;
+    }
+}

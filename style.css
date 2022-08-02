@@ -3,84 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-html,body{
-    max-width: 100%;
-    overflow-x: hidden;
-}
-#navigation{
-    position: fixed;
-    top: 0;
-    z-index: 9999;
-    width: 100%;
-    display: block;
-    transition: top 0.3s;
-    
-}
-/* .navbar a:hover{
-    color: black;
-} */
-.logoImage img{
-    height:4rem ;
-    padding-left: 2rem;
-}
-.first-section{
-   height:46rem;
-   background-image: url(img/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
-   background-size: 100% 100%;
-}
-.first-section img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top:12rem ;
-}
-.first-section h1{
-    color: white;
-    text-align: center;
-}
-.first-section p{
-    color: white;
-    text-align: center;
-} 
-.second-section h1{
-    text-align: center;
-    margin-top: 5px;
-}
-/* .about-image{
-
-}
-.about-content h1{
-  
-} */
-
-.third-section{
-    /* height: 80rem; */
-    background-image: url(img/Moon\ and\ cloud.jpg);
-    background-size: cover;
-}
-.third-section h1{
-    color: white;
-    text-align: center;
-}
-footer{
-    height: 5rem;
-    background-color: royalblue;
-}
-.card{
-    margin-bottom: 3rem;
-    margin-left: 3rem;
-}
-
-
-/* .loader-wrapper{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
- 
-} */
-
 
 
 .loader{
@@ -176,6 +98,89 @@ footer{
     transform: rotate(360deg);
   }
 }
+
+
+
+
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#navigation{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    
+}
+/* .navbar a:hover{
+    color: black;
+} */
+.logoImage img{
+    height:4rem ;
+    padding-left: 2rem;
+}
+.first-section{
+   height:46rem;
+   background-image: url(img/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+   background-size: 100% 100%;
+}
+.first-section img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:12rem ;
+}
+.first-section h1{
+    color: white;
+    text-align: center;
+}
+.first-section p{
+    color: white;
+    text-align: center;
+} 
+.second-section h1{
+    text-align: center;
+    margin-top: 5px;
+}
+/* .about-image{
+
+}
+.about-content h1{
+  
+} */
+
+.third-section{
+    /* height: 80rem; */
+    background-image: url(img/Moon\ and\ cloud.jpg);
+    background-size: cover;
+}
+.third-section h1{
+    color: white;
+    text-align: center;
+}
+footer{
+    height: 5rem;
+    background-color: royalblue;
+}
+.card{
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
+
+/* .loader-wrapper{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+ 
+} */
+
+
 
 
 @media  screen and (max-width:820px) {

@@ -100,6 +100,15 @@
 }
 
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: grey
+}
+::-webkit-scrollbar-thumb{
+    background: royalblue;
+}
 
 
 html,body{
@@ -164,6 +173,19 @@ html,body{
 footer{
     height: 5rem;
     background-color: royalblue;
+}
+.follow{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.socialIcons{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.fa-brands{
+    padding: 4px;
 }
 .card{
     margin-bottom: 3rem;
